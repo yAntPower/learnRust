@@ -60,15 +60,17 @@ impl Worker {
                 .expect("调用闭包时获取接受数据错误。");
             match msg {
                 Message::NewJob(job) => {
-                    job.call_box();
+                    println!("Worker {} got a job; executing.", id);
+                    job();
                 }
                 Message::Terminate => {
+                    println!("Worker {} was told to terminate.", id);
                     break;
                 }
             }
         });
         Worker {
-            id,
+            id:id,
             thread: Some(thread),
         }
     }

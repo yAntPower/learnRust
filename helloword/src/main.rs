@@ -77,7 +77,6 @@ fn option_str(s:&String)->&str{
     return &s[..];
 }
 fn main() {
-    clcrecv_hopr();
     test_enum();
     println!("I am main()");
     println!("init和{}",kk()+1);
@@ -182,35 +181,4 @@ mod aaaaa{
     pub struct Rng{
        pub a:String,
     }
-}
-
-
-
-
-
-
-
-
-//计算收益
-fn clcrecv_hopr(){
-    let a=0.46/365.0; //每天的利率
-	let mut b=42905.5633;  //初始本金
-	let mut c=0.0;
-	let mut d=0.0;
-	for i in 1..32 {
-		c += a*b;
-		if c >= 100.0{
-			d+=c;
-			b = b+c;
-            println!("第{}天，利息和={} ，本金={}\n",i,c,b);
-			// fmt.Printf("第%d天，利息和=%f ，本金=%f\n", i, c,b)
-			c = 0.0;
-		}
-	}
-	if c >0.0{
-		d+=c;
-		b = b+c;
-	}
-	println!("总和={},总利息={}\n", b,d);
-	println!("总量={} \n", b+2150.00);
 }

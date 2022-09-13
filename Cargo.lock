@@ -10,9 +10,9 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
 name = "getrandom"
-version = "0.2.6"
+version = "0.2.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9be70c98951c83b8d2f8f60d7065fa6d5146873094452a1008da8c2f1e4205ad"
+checksum = "4eb1a864a501629691edf6c15a593b7a51eebaa1e8468e9ddc623de7c9b58ec6"
 dependencies = [
  "cfg-if",
  "libc",
@@ -20,10 +20,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "helloword"
+version = "0.1.0"
+dependencies = [
+ "rand",
+]
+
+[[package]]
 name = "libc"
-version = "0.2.126"
+version = "0.2.132"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836"
+checksum = "8371e4e5341c3a96db127eb2465ac681ced4c433e01dd0e938adbef26ba93ba5"
+
+[[package]]
+name = "minigrep"
+version = "0.1.0"
 
 [[package]]
 name = "ppv-lite86"
@@ -62,7 +73,27 @@ dependencies = [
 ]
 
 [[package]]
-name = "test_hello"
+name = "unit10"
+version = "0.1.0"
+
+[[package]]
+name = "unit15"
+version = "0.1.0"
+
+[[package]]
+name = "unit16"
+version = "0.1.0"
+
+[[package]]
+name = "unit17"
+version = "0.1.0"
+
+[[package]]
+name = "unit20_web"
+version = "0.1.0"
+
+[[package]]
+name = "unit8"
 version = "0.1.0"
 dependencies = [
  "rand",
@@ -70,6 +101,6 @@ dependencies = [
 
 [[package]]
 name = "wasi"
-version = "0.10.2+wasi-snapshot-preview1"
+version = "0.11.0+wasi-snapshot-preview1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fd6fbd9a79829dd1ad0cc20627bf1ed606756a7f77edff7b66b7064f9cb327c6"
+checksum = "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423"

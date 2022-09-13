@@ -1,5 +1,5 @@
 [package]
-name = "test_unit20"
+name = "unit20_web"
 version = "0.1.0"
 edition = "2021"
 

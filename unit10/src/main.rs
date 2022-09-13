@@ -1,4 +1,4 @@
-use test_unit10::*;
+use unit10::*;
 fn main() {
     let tw = Tweet {
         username: String::from("name"),

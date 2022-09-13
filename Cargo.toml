@@ -1,0 +1,12 @@
+[workspace]
+#resolver = "1"
+members = [
+    "helloword",
+   "minigrep",
+   "unit8",
+   "unit10",
+   "unit15",
+   "unit16",
+   "unit17",
+   "unit20_web",
+]
