@@ -9,4 +9,5 @@ members = [
    "unit16",
    "unit17",
    "unit20_web",
+   "timer_future",
 ]
