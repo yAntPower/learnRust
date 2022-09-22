@@ -11,4 +11,6 @@ members = [
    "unit20_web",
    "timer_future",
    "readfile",
+   "network_server",
+   "network_client"
 ]
