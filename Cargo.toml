@@ -12,5 +12,6 @@ members = [
    "timer_future",
    "readfile",
    "network_server",
-   "network_client"
+   "network_client",
+   "tokio_demo",
 ]
