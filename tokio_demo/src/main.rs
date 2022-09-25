@@ -12,7 +12,7 @@ async fn main() {
     // 目录：/Users/xx/project
     // 总大小:20.74 GB
     // 共有67700个文件
-    //my_async::run(&input).await;
+    my_async::run(&input).await;
 
 
     //异步  release（calc_dir_size_recursive）递归
@@ -29,6 +29,6 @@ async fn main() {
     // 总大小:20.74 GB
     // 共有67700个文件
     // 用时:1.145774996s
-    //my_sync::start(&input);
+    my_sync::start(&input);
 }
 
